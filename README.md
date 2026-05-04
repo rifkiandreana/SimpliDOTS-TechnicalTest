@@ -2,6 +2,9 @@
 
 Dokumentasi singkat untuk project automated dan manual test berbasis Cypress + Cucumber (Gherkin).
 
+## Video Showcase Pengujian
+Link Video : https://drive.google.com/file/d/1w4WNCEFRyqSPqBwi0zWixrle_MBmbLth/view?usp=sharing
+
 ## Ringkasan
 
 Project ini berisi skenario pengujian fitur TMDB, seperti login, menandai favorite, melihat daftar favorite, sorting favorite, dan menghapus favorite. Struktur test menggunakan Gherkin (.feature) dan step definition Cypress.
