@@ -1,6 +1,6 @@
 # SimpliDots - TMDB Cypress BDD Tests
 
-Dokumentasi singkat untuk project automated test berbasis Cypress + Cucumber (Gherkin).
+Dokumentasi singkat untuk project automated dan manual test berbasis Cypress + Cucumber (Gherkin).
 
 ## Ringkasan
 
