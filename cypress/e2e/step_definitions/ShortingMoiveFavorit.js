@@ -10,7 +10,7 @@ When("user memilih sorting berdasarkan popularity", () => {
 });
 
 Then("sistem menampilkan daftar favorite movie yang diurutkan berdasarkan popularity", () => {
-  MelihatMoviewFavoritPage.validateFirstMovie("Apex");
+  MelihatMoviewFavoritPage.validateFirstMovie("Swapped");
   ShortingMoiveFavoritPage.verifyUrlContains("popularity", "desc");
 });
 
@@ -21,7 +21,7 @@ When("user memilih sorting berdasarkan release date", () => {
   ShortingMoiveFavoritPage.selectSortByReleaseDate();
 });
 Then("sistem menampilkan daftar favorite movie yang diurutkan berdasarkan release date", () => {
-  MelihatMoviewFavoritPage.validateFirstMovie("Apex");
+  MelihatMoviewFavoritPage.validateFirstMovie("Swapped");
   ShortingMoiveFavoritPage.verifyUrlContains("release_date", "desc");
 });
 

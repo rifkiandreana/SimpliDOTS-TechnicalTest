@@ -7,18 +7,18 @@ import TambahFavoritPage from "../pages/TambahFavoritPage";
 // Scenario 1: User menghapus movie dari halaman favorite list
 // ─────────────────────────────────────────
 When("user menghapus movie dari favorite list", () => {
-  HapusMovieFavoritPage.removeMovieByTitle("Michael");
+  HapusMovieFavoritPage.removeMovieByTitle("Swapped");
 });
 
 Then("movie langsung hilang dari halaman favorite list", () => {
-  HapusMovieFavoritPage.validateMovieRemoved("Michael");
+  HapusMovieFavoritPage.validateMovieRemoved("Swapped");
 });
 
 // ─────────────────────────────────────────
 // Scenario 2: User menghapus movie dari halaman movie list
 // ─────────────────────────────────────────
 When("user menghapus movie dari halaman movie list", () => {
-  TambahFavoritPage.clickOptionMovie("Michael");
+  TambahFavoritPage.clickOptionMovie("Swapped");
   TambahFavoritPage.clickAddToFavoriteList();
 });
 

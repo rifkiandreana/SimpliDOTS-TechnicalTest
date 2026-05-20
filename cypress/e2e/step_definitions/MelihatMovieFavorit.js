@@ -18,7 +18,7 @@ Then("sistem menampilkan halaman favorite movie", () => {
 // Scenario 2: Sistem menampilkan daftar movie yang difavoritkan
 // ─────────────────────────────────────────
 Then("sistem menampilkan daftar movie favorite user", () => {
-  MelihatMoviewFavoritPage.validateMovieExists("Michael");
+  MelihatMoviewFavoritPage.validateMovieExists("Swapped");
   MelihatMoviewFavoritPage.validateMovieExists("Apex");
 });
 
@@ -26,7 +26,7 @@ Then("sistem menampilkan daftar movie favorite user", () => {
 // Scenario 3: Movie terbaru muncul paling atas pada favorite list
 // ─────────────────────────────────────────
 Then("movie yang terakhir difavoritkan muncul di urutan paling atas", () => {
-  MelihatMoviewFavoritPage.validateFirstMovie("Michael");
+  MelihatMoviewFavoritPage.validateFirstMovie("Swapped");
 });
 
 // ─────────────────────────────────────────

@@ -10,7 +10,7 @@ When("user membuka halaman movie popular", () => {
 });
 
 When("user menandai movie sebagai favorite", () => {
-  TambahFavoritPage.clickOptionMovie("Michael");
+  TambahFavoritPage.clickOptionMovie("Swapped");
   TambahFavoritPage.clickAddToFavoriteList();
 });
 
@@ -22,7 +22,7 @@ Then("sistem menampilkan indikator bahwa movie sudah di favorite", () => {
 // Scenario 2: Favorite dari Detail Movie
 // ─────────────────────────────────────────
 When("user menandai movie sebagai favorite dari detail", () => {
-  TambahFavoritPage.clickDetailMovie("Michael");
+  TambahFavoritPage.clickDetailMovie("Swapped");
   TambahFavoritPage.clickAddToFavoriteDetail(); //Klik untuk mengaktifkan tombol favorite
   TambahFavoritPage.clickAddToFavoriteDetail(); //Klik kedua untuk menandai sebagai favorite setelah tombol aktif
 });
